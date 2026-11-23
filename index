@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <title>Restaurant</title>
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                        <a class="navbar-brand" href="#">FOOD PARADISE</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav ms-auto">
+                                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                                        <a class="nav-link" href="#about-page-opens">About</a>
+                                        <a class="nav-link" href="#menu-page-opens">Menu</a>
+                                        <a class="nav-link" href="#Food-gallery-opens">Gallery</a>
+                                        <a class="nav-link" href="#contact-opens">Contact</a>
+                                        
+                                       
+
+
+
+                                </div>
+                        </div>
+                </div>
+        </nav>
+
+        <section id="home"class="main-section">
+                <div class="main-section-elements">
+                        <h1 class=" heading">Delicious food for everyone</h1>
+                        <p class="main-sub-heading">experience the taste of premium quality food with amazing ambience.
+                        </p>
+                        <button class="btn order-now-button">order now</button>
+                </div>
+        </section>
+
+        <section class="carousel-section">
+                <h1 class="carousel-section-heading">Popular Dishes</h1>
+                <p class="carousel-section-para">Our most loved dishes</p>
+
+                <div class="carousel-container">
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                                <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                data-bs-slide-to="0" class="active" aria-current="true"
+                                                aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions"
+                                                data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                                <img src="/menus/cheese pizza.jfif.jpeg" class="d-block w-100"
+                                                        alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Italian Cheese Pizza</h5>
+                                                        <p>Loaded with extra cheese and fresh toppings </p>
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="/menus/chicken burger.jfif.jpeg" class="d-block w-100"
+                                                        alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Chicken Burger</h5>
+                                                        <p>Crispy burger with fresh vegetables.</p>
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="/menus/pasta.jfif.jpeg" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Special Pasta</h5>
+                                                        <p>Fresh creamy pasta made by expert chefs.</p>
+                                                </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                                <img src="/menus/chocolate cake.jfif.jpeg" class="d-block w-100"
+                                                        alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Chocolate Dessert</h5>
+                                                        <p>Sweet and delicious premium dessert collection.</p>
+                                                </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                                <img src="/restaurant.jfif.jpeg" class="d-block w-100" alt="...">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                        <h5>Luxury Dining</h5>
+                                                        <p>Experience premium ambience and comfort.</p>
+
+                                                </div>
+                                        </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                </button>
+                        </div>
+                </div>
+
+        </section>
+
+        <section id="about-page-opens">
+                <div class="d-flex flex-row justify-content-center align-items-center about-class">
+                        <img src="about section.jpeg" class="image-styling">
+                        <div class="about-content d-flex flex-column">
+                                <h1 class="about-heading">About our restaurant</h1>
+                                <p class="para-1">food paradise is one of the best restaurants offering delicious
+                                        dishes,premium ambience,and unforgettable dining experiences.</p>
+                                <p class="para-2">we provide fresh ingredients,professional chefs,and quality service
+                                        for all customers</p>
+                                <button class="btn about-section-button">read more</button>
+
+                        </div>
+
+                </div>
+        </section>
+
+        <section id="menu-page-opens">
+                <div class="menu-section-container">
+                        <h1 class="our-menu-heading">our menu</h1>
+                        <p class="sub-heading">fresh and tasty food items</p>
+
+                        <div class="d-flex flex-row justify-content-center align-items-center flex-wrap">
+
+                                <div class="menu-card">
+                                        <img src="/menus/cheese pizza.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">Cheese Pizza</h3>
+                                        <p class="item-info">Loaded with extra cheese and fresh toppings.</p>
+                                        <p class="price">$299</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+
+                                <div class="menu-card">
+                                        <img src="/menus/chicken burger.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">Chicken Burger</h3>
+                                        <p class="item-info">Juicy chicken burger with crispy fries.</p>
+                                        <p class="price">$199</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+                                <div class="menu-card">
+                                        <img src="/menus/healthy salad.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">Healthy Salad</h3>
+                                        <p class="item-info">Fresh vegetable salad with healthy dressing.</p>
+                                        <p class="price">$149</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+                                <div class="menu-card">
+                                        <img src="/menus/chocolate cake.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">Chocolate Cake</h3>
+                                        <p class="item-info">Soft and delicious chocolate layered cake.</p>
+                                        <p class="price">$249</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+                                <div class="menu-card">
+                                        <img src="/menus/french fries.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">French Fries</h3>
+                                        <p class="item-info">Crispy golden fries with spicy seasoning.</p>
+                                        <p class="price">$129</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+                                <div class="menu-card">
+                                        <img src="/menus/veg sandwich.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">Veg Sandwich</h3>
+                                        <p class="item-info">Healthy sandwich with fresh vegetables.</p>
+                                        <p class="price">$159</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+                                <div class="menu-card">
+                                        <img src="/menus/healthy bowl.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">Healthy Bowl</h3>
+                                        <p class="item-info">Nutritious bowl with fresh ingredients.</p>
+                                        <p class="price">$219</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+                                <div class="menu-card">
+                                        <img src="/menus/chinese noodles.jfif.jpeg" class="menu-image">
+                                        <h3 class="item-name">Chinese Noodles</h3>
+                                        <p class="item-info">Hot and spicy noodles with vegetables.</p>
+                                        <p class="price">$199</p>
+                                        <button class="btn menu-section-order-button">Order</button>
+                                </div>
+
+                        </div>
+                </div>
+        </section>
+
+        <section id="video-page-opens">
+                <div class="video-section">
+                        <h1 class="video-section-heading">Restaurant video</h1>
+                        <p class="video-section-para">Watch our cooking experience</p>
+                        <div class="video-container">
+                                <iframe width="560" height="700"
+                                        src="https://www.youtube.com/embed/w7ZO2Jg1i9w?si=zK-bUJt0_bX-F3Wz"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                </div>
+
+        </section>
+
+
+        <section id="Food-gallery-opens" class=food-gallery-section">
+                <h1 class="food-gallery-heading">Food Gallery</h1>
+                <p class="food-gallery-para">Explore our delicious collection</p>
+                <div class="food-gallery-container d-flex flex-row justify-content-start flex-wrap">
+                        <img src="/background image.jpeg" class="food-gallery-image">
+                        <img src="/menus/veg sandwich.jfif.jpeg" class="food-gallery-image">
+                        <img src="/menus/pasta.jfif.jpeg" class="food-gallery-image">
+                </div>
+
+        </section>
+
+        <section id="customer-review-opens" class="customer-review-section">
+                <h1 class="customer-review-heading">Customer Reviews</h1>
+                <p class="customer-review-para">What our customers say.</p>
+                <div class="customer-review-container d-flex flex-row justify-content-center align-items-start flex-wrap">
+                        <div class="review-card">
+                                <img src="/ravi.jpg" class="image-styling1">
+                                <h1 class="name-styling">Ravi Kumar</h1>
+                                <p class="review-content-styling">Amazing food quality and excellent service.</p>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                        </div>
+
+                        <div class="review-card">
+                                <img src="/sneha.jpg" class="image-styling1">
+                                <h1 class="name-styling">Sneha</h1>
+                                <p class="review-content-styling">Beautiful ambience and tasty dishes.</p>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+
+                        </div>
+
+                        <div class="review-card">
+                                <img src="/arjun.jpg" class="image-styling1">
+                                <h1 class="name-styling">Arjun</h1>
+                                <p class="review-content-styling">One of the best restaurants in the city.</p>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                                <i class="fa-sharp fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                        </div>
+                </div>
+        </section>
+
+        <section id="contact-opens" class="contact-section">
+                <div class="form-container">
+                        <h1 class="contact-section-heading">Contact Us</h1>
+                        <form class="form-elements d-flex flex-column justify-content-center align-items-center">
+                                <input class="name" type="text" placeholder="enter yourName">
+                                <input class="email" type="text" placeholder="enter your Email">
+                                <input class="message" type="text" placeholder="enter your Message">
+                                <button class="btn btn-secondary">Send Message</button>
+                        </form>
+
+                </div>
+        </section>
+
+        <section class="footer-section">
+                <h1 class="footer-section-heading">Food Paradise</h1>
+                <div class="logo-section">
+                        <i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255);"></i>
+                        <i class="fa-brands fa-youtube" style="color: rgb(255, 255, 255);"></i>
+                        <i class="fa-brands fa-facebook" style="color: rgb(255, 255, 255);"></i>
+                        <i class="fa-brands fa-twitter" style="color: rgb(255, 255, 255);"></i>
+
+                </div>
+                <p class="footer-section-para">© 2026 Food Paradise Restaurant | All Rights Reserved</p>
+
+
+        </section>
+
+
+
+
+
+</body>
+
+</html>

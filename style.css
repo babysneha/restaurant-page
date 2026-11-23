@@ -1,0 +1,692 @@
+/*hero section :start*/
+.main-section{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background\ image.jpeg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.heading{
+   color:white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-sub-heading{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.order-now-button{
+    color:white !important;
+    padding: 15px !important;
+    border-radius: 15px !important; ;
+    background-color: orangered !important;
+    font-size: 20px !important;
+    border: green !important;
+
+}
+
+.main-section-elements{
+    text-align: center;
+    padding-top: 300px;
+}
+
+@media(max-width:768px){
+    .main-section{
+        height:60vh;
+        object-fit: cover;
+    }
+
+    .main-section-elements{
+        text-align: center;
+         padding-left: 20px;
+         padding-right: 20px;
+         padding-top: 150px;
+         
+    }
+   
+    .heading{
+       font-size: 30px;
+       text-align: center ;
+  }
+
+  .main-sub-heading{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .order-now-button{
+    padding: 10px !important;
+    text-align: center !important;
+    font-size: 15px !important;
+
+  }
+
+  
+}
+
+/*hero section :end*/  
+
+/*about-section:start*/
+
+.image-styling{
+    height: 400px;
+    padding:20px;
+    width: 600px;
+    border-radius:50px;
+    margin-left: 100px;
+}
+
+
+.about-content{
+    margin: 50px;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.about-heading{
+    color:orangered;
+    font-weight: bold;
+}
+
+.para-1{
+    color: gray;
+    font-size: 18px;
+   
+}
+
+.about-section-button{
+    background-color: orangered !important;
+    border-radius: 30px !important;
+    color: white !important;
+    width: max-content !important;
+    padding: 15px !important;
+}
+
+
+
+@media(max-width:768px){
+    .image-styling{
+        height: 350px;
+        width: 400px;
+        order: 1;
+        
+    }
+    
+    
+}
+
+/*about-section:end*/
+
+/*menu-section:start*/
+
+
+.menu-section-container{
+    text-align: center;
+   
+    
+}
+
+.our-menu-heading{
+    color: orangered;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.sub-heading{
+    color:grey;
+    font-size: 20px;
+}
+
+.menu-image{
+    height: 260px;
+    width: 320px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+}
+
+.menu-card{
+    background-color: white;
+    height: auto;
+    width: 320px;
+   border-radius: 30px;
+   padding-bottom: 20px;
+   margin:20px;
+   box-shadow: 0px 10px 10px rgba(0,0,0,0.6);
+   transition: 0.5s;
+}
+
+.menu-card:hover{
+    transform: translatey(-30px);
+}
+
+
+
+.item-name{
+    font-size: 25px;
+    padding-top: 20px;
+
+}
+
+.price{
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-section-order-button{
+    background-color: orangered !important;
+    color: white !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: center !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    font-size: 20px !important;
+}
+
+.item-info{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+
+}
+
+@media(max-width:768px){
+    .our-menu-heading{
+        font-size: 35px;
+    }
+
+    .sub-heading{
+        font-size: 15px;
+    }
+
+    .menu-image{
+    height: 200px;
+    width: 330px;
+    
+}
+
+.menu-card{
+    background-color: white;
+    height: auto;
+    width: 330px;
+   
+}
+
+
+
+.item-name{
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+.price{
+    
+    font-size: 15px;
+}
+
+.menu-section-order-button{
+   font-size: 15px !important;
+}
+
+.item-info{
+    font-size: 15px;
+    margin: 10px;
+}
+
+}
+
+/*menu-section:end*/
+
+
+/*carousel :start*/
+
+.carousel-section-heading{
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+.carousel-section-para{
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+.carousel-section{
+    height: 100%;
+    padding: 20px;
+}
+
+.carousel-container{
+    
+    height: 650px;
+    width:80%;
+    margin: auto;
+}
+
+.carousel-item img{
+    height: 650px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+@media(max-width:768px){
+    .carousel-section-heading{
+        font-size: 30px;
+    }
+
+    .carousel-section-para{
+        font-size: 18px;
+        
+    }
+
+    .carousel-container{
+        height: 400px;
+        width: 100%;
+        
+    }
+
+    .carousel-item img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+}
+/*carousel :end*/
+
+/*video:start*/
+
+.video-section{
+    height: 100%;
+    text-align: center;
+}
+
+.video-section-heading{
+    color: orangered;
+    font-weight: bold;
+    
+    
+}
+
+.video-section-para{
+    color: gray;
+    font-size: 20px;
+}
+
+.video-container{    
+    width: 85%;
+    margin: auto;
+    
+
+}
+
+.video-container iframe{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+@media(max-width:768px){
+    .video-section{
+    height: 100%;
+    text-align: center;
+}
+
+
+.video-section-para{
+    font-size: 16px;
+}
+
+.video-container{    
+    height: 400px;
+    
+
+}
+
+.video-container iframe{
+    height: 400px;
+    
+}
+
+}
+/*video:end*/
+
+/*food-gallery:start*/
+
+.food-gallery-section{
+    height: 100%;
+    text-align: center;
+    
+}
+
+.food-gallery-heading{
+    color: orangered;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.food-gallery-para{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+.food-gallery-container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.food-gallery-image{
+    width: 380px;
+    height: 270px;
+    margin: auto;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 30px;
+    object-fit: cover;
+
+
+}
+
+.food-gallery-image:hover{
+    transform:scale(1.1);
+}
+
+@media(min-width:568px){
+   
+.food-gallery-para{
+    font-size: 18px;
+}
+
+
+}
+
+/*food-gallery:end*/
+
+
+.background-music-heading{
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.background-music-para{
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*customer-review:start*/
+
+
+.customer-review-section{
+    height: 100%;
+     text-align: center;
+
+}
+
+.customer-review-heading{
+    color: orangered;
+    font-weight: bold;
+   font-size: 30px;
+
+}
+
+.customer-review-para{
+    color: gray;
+    font-size: 20px;
+
+}
+
+.customer-review-container{
+    height:100%;
+    width: 100%;
+  
+    
+}
+
+.review-card{
+    height: 270px;
+    width: 420px;
+    background-color:black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color:White;
+    box-shadow:0px 10px 10px rgba(0,0,0,0.6);
+    
+}
+
+
+.image-styling1{
+    
+    border-radius: 50%;
+    
+}
+
+.name-styling{
+    color: black;
+    font-size: 20px;
+}
+
+.review-content-styling{
+    font-size: 18px;
+}
+
+@media(max-width:768px){
+    .customer-review-para{
+    font-size: 18px;
+}
+.review-card{
+    height: 260px;
+    width: 350px;
+    padding: 10px;
+     margin: 10px;
+
+
+}
+.image-styling1{
+    
+    border-radius: 100%;
+    
+}
+} 
+
+
+
+/*customer-review:end*/
+
+/*contact-section:start*/
+
+
+
+.contact-section{
+    height: 80vh;
+    background-color:blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius: 30px;
+    width: 50%;
+    height: 80%;
+      box-shadow:0px 10px 10px rgba(0,0,0,0.6);
+    
+}
+
+.contact-section-heading{
+    color: orangered;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.name,.email{
+    width: 150%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.message{
+    width: 150%;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid gray;
+  
+}
+
+.btn-secondary{
+    margin-top: 20px;
+    background-color: orangered !important;
+    padding:10px !important;
+
+
+}
+
+@media(max-width:768px){
+    
+
+.contact-section{
+    height: 60vh;
+    width: 100%;
+    }
+
+.form-container{
+    height:50vh ;
+    width: 80%;
+    
+}
+
+.contact-section-heading{
+    
+    font-size: 30px;
+}
+
+.name,.email{
+    width: 110%;
+   }
+
+.message{
+    width: 110%;
+}
+}
+
+/*contact-section:end*/
+
+/*footer-section:start*/
+
+.footer-section{
+    background-color: black;
+    height:100%;
+  padding: 10px;
+}
+
+.footer-section-heading{
+    color: white;
+    text-align: center;
+
+}
+
+.footer-section-para{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.logo-section{
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+
+}
+
+.logo-section :hover{
+   color: orangered;
+}
+
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.782);
+}
+
+.fa-brands{
+    padding: 10px;
+}
+.fa-brands:hover{
+    color: orangered !important;
+}
+
+
+/*footer-section:end*/
+
+
+.nav-link{
+    color: white !important;
+    font-size: 20px !important;
+    padding: 20px !important;
+}
+
+.nav-link:hover{
+    color: orangered !important;
+}
+
+.navbar-brand{
+    color:orangered !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    animation: logoSlide 1s ease;
+}
+
+@keyframes logoSlide{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to{
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
+
+.navbar{
+    background-color: rgb(32, 30, 30);
+}
+
+@media(max-width:768px){
+    .navbar-brand{
+        font-size: 25px !important;
+    }
+
+    .nav-link{
+        font-size: 15px !important;
+    }
+
+}
+
+
